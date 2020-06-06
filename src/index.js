@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(authRoutes);
 app.use(trackRoutes);
 
-const mongoUri = 'mongodb+srv://admin:pass123@cluster0-0fe2w.gcp.mongodb.net/test?retryWrites=true&w=majority';
+const mongoUri = 'mongodb+srv://USERNAME:PASSWORD@cluster0-0fe2w.gcp.mongodb.net/test?retryWrites=true&w=majority';
 if (!mongoUri) {
   throw new Error(
     `MongoURI was not supplied.  Make sure you watch the video on setting up Mongo DB!`
