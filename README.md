@@ -2,7 +2,7 @@
 Tracks App with TracksServer 
 
 This React Native application was created throughout the course 
-"The Complete React Native + Hooks Course [2020 Edition]" by Stephen Grinder.
+"The Complete React Native + Hooks Course [2020 Edition]" by Stephen Grider.
 
 The goal of the App is to be a Tracker that records locations from a given phone, then displays a list of trackings to the user
 For that, we used Expo, Expo-Location, MongoDB, Ngrok, React Navigation, React Native Elements and other dependencies.
